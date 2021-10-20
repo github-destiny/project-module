@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mail_module/mail_module.iml" filepath="$PROJECT_DIR$/mail_module/mail_module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/phone_info/phone_info.iml" filepath="$PROJECT_DIR$/phone_info/phone_info.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_redis/spring_redis.iml" filepath="$PROJECT_DIR$/spring_redis/spring_redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uploadfile/uploadfile.iml" filepath="$PROJECT_DIR$/uploadfile/uploadfile.iml" />
+    </modules>
+  </component>
+</project>

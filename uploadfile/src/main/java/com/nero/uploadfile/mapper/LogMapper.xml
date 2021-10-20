@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.nero.uploadfile.mapper.LogMapper">
+
+    <insert id="insertInfo">
+        insert into uploadinfo(uuid, `size`, originname, time, path, type)
+        values(#{uuid}, #{size}, #{originName}, #{time}, #{path}, #{type});
+    </insert>
+
+    <select id="getUploadInfo" resultType="com.nero.uploadfile.domain.UploadInfo">
+        select * from uploadinfo where uuid = #{uuid}
+    </select>
+
+</mapper>
